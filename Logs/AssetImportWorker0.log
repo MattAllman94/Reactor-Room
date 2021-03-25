@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 18362.1082; Version 1903; 64bit' Language: 'en' Physical Memory: 32705 MB
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16333 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,202 +11,162 @@ C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/mallman/Documents/GitHub/Reactor-Room
+C:/Users/TechFast Australia/Documents/GitHub/Reactor Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49468
-Successfully changed project path to: C:/Users/mallman/Documents/GitHub/Reactor-Room
-C:/Users/mallman/Documents/GitHub/Reactor-Room
+50267
+Successfully changed project path to: C:/Users/TechFast Australia/Documents/GitHub/Reactor Room
+C:/Users/TechFast Australia/Documents/GitHub/Reactor Room
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/mallman/Documents/GitHub/Reactor-Room/Assets
+[Subsystems] Discovering subsystems at path C:/Users/TechFast Australia/Documents/GitHub/Reactor Room/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   26.21.14.4128
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001146 seconds.
+Registered in 0.002750 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
+- Completed reload, in  1.245 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000497 seconds.
+Registered in 0.000890 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.986 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
+System memory in use before: 77.7 MB.
+System memory in use after: 77.8 MB.
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2031.
-Total: 1.708900 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.431800 ms  DeleteObjects: 0.108100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/White-Box/Glass_MAT.mat
-  artifactKey: Guid(ea9e088bd68fec344857e81e22692ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Glass_MAT.mat using Guid(ea9e088bd68fec344857e81e22692ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120efbaee1f13180288ed30db29515e2') in 0.188681 seconds
-  Import took 0.191834 seconds .
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 2.454000 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.894400 ms  DeleteObjects: 0.226100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Materials/White-Box/Laser_MAT.mat
-  artifactKey: Guid(515c915d247603b4a927a8f4d8ff65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Laser_MAT.mat using Guid(515c915d247603b4a927a8f4d8ff65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c716e7794c4ad5765f6f74fe4408f36e') in 0.024608 seconds
-  Import took 0.027886 seconds .
+  path: Assets/Warehouse_stairs.obj
+  artifactKey: Guid(a6a969d00b1e6aa44b4ba4eaf2d5b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_stairs.obj using Guid(a6a969d00b1e6aa44b4ba4eaf2d5b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541f16fa32bfefc8fe9992d2145a56ff') in 0.180825 seconds
+  Import took 0.183568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Materials/White-Box/Player_MAT.mat
-  artifactKey: Guid(998fd65b81fbd5948a13db219848d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Player_MAT.mat using Guid(998fd65b81fbd5948a13db219848d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69cb7cc4077eec7b47ffd5f0626b420') in 0.015008 seconds
-  Import took 0.017210 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/Warehouse_floor_grate.obj
+  artifactKey: Guid(7763d0fdc7bee9044be5c231e9ccca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_floor_grate.obj using Guid(7763d0fdc7bee9044be5c231e9ccca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750d6a67d9639b2cc2d796bc961c7af2') in 0.032779 seconds
+  Import took 0.035232 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Materials/White-Box/Floor_MAT.mat
-  artifactKey: Guid(e520e13ae61f62649974c3793206e85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Floor_MAT.mat using Guid(e520e13ae61f62649974c3793206e85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f33f21c096b6b91ea9ae078132e12ad') in 0.013768 seconds
-  Import took 0.016026 seconds .
+  Time since last request: 0.000163 seconds.
+  path: Assets/Warehouse_door_large.obj
+  artifactKey: Guid(48bbcad3c80bc504490e7bffe0f2efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_door_large.obj using Guid(48bbcad3c80bc504490e7bffe0f2efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db702e14a7a3baeb100e6088c634650a') in 0.059178 seconds
+  Import took 0.061637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Materials/White-Box/Reactor_MAT.mat
-  artifactKey: Guid(7820bec85b8297f4886ecce04b39ee20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Reactor_MAT.mat using Guid(7820bec85b8297f4886ecce04b39ee20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9a18ee6041c71c1516bff23701d5e7') in 0.012031 seconds
-  Import took 0.014124 seconds .
+  Time since last request: 0.000167 seconds.
+  path: Assets/Warehouse_door_small.obj
+  artifactKey: Guid(e45deb2b13d4c7b4fb0a6eaa8a355c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_door_small.obj using Guid(e45deb2b13d4c7b4fb0a6eaa8a355c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629b0f0a83b1dcd5099c3893912542c3') in 0.058538 seconds
+  Import took 0.061069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Warehouse_roof.obj
+  artifactKey: Guid(3afd826fafdfd7048b9ed1ceef73b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_roof.obj using Guid(3afd826fafdfd7048b9ed1ceef73b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093eadad30a2c5439b77a72a1e350fb5') in 0.033165 seconds
+  Import took 0.035608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Warehouse_wall_half.obj
+  artifactKey: Guid(4aa41bf35f5f4e042926df7f7ac6c450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_wall_half.obj using Guid(4aa41bf35f5f4e042926df7f7ac6c450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77976b22a30e1f62fa27951eba74d7f4') in 0.034043 seconds
+  Import took 0.036508 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000175 seconds.
-  path: Assets/Materials/White-Box/Deco_MAT.mat
-  artifactKey: Guid(a4310e3df0813cf418bee2dd1a96f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Deco_MAT.mat using Guid(a4310e3df0813cf418bee2dd1a96f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6084dd8ee686469c091b3111d77868') in 0.013730 seconds
-  Import took 0.016193 seconds .
+  path: Assets/Warehouse_wall.obj
+  artifactKey: Guid(12d7b75b0e033a5479771e717d3d0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_wall.obj using Guid(12d7b75b0e033a5479771e717d3d0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbfb57dacb00f799cf13a97cafdacd4') in 0.032867 seconds
+  Import took 0.035369 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001300 seconds.
-  path: Assets/Materials/White-Box/Deco_MAT.mat
-  artifactKey: Guid(a4310e3df0813cf418bee2dd1a96f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Deco_MAT.mat using Guid(a4310e3df0813cf418bee2dd1a96f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6084dd8ee686469c091b3111d77868') in 0.010728 seconds
-  Import took 0.012929 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.626 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2073.
-Total: 1.502400 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.318000 ms  DeleteObjects: 0.008900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000499 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 1.728300 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.536700 ms  DeleteObjects: 0.010500 ms)
+  Time since last request: 0.000175 seconds.
+  path: Assets/Warehouse_wall_lower.obj
+  artifactKey: Guid(b63f68d6a984d314998403a280d0b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_wall_lower.obj using Guid(b63f68d6a984d314998403a280d0b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab2fb1f81d6b2cbea8659cfe35b5e18') in 0.031334 seconds
+  Import took 0.033782 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1865.398037 seconds.
-  path: Assets/Materials/White-Box/Glass_MAT 1.mat
-  artifactKey: Guid(62686b9628728b54f8889e8605ce2da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/White-Box/Glass_MAT 1.mat using Guid(62686b9628728b54f8889e8605ce2da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b04d129d8995493a5876455cbaa0ce') in 0.042178 seconds
-  Import took 0.044356 seconds .
+  Time since last request: 0.000175 seconds.
+  path: Assets/Warehouse_floor.obj
+  artifactKey: Guid(0e42f4c352af2c241b52a4dbff560525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warehouse_floor.obj using Guid(0e42f4c352af2c241b52a4dbff560525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e845f0dcdea2ba08641004d22a15b65f') in 0.035994 seconds
+  Import took 0.038442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 600.489844 seconds.
+  path: Assets/Prefabs/Test/Warehouse_shelves.obj
+  artifactKey: Guid(4cf457d421736884fa698f2501090b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_shelves.obj using Guid(4cf457d421736884fa698f2501090b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbba0ede09cca335d5fd20b9d72e3523') in 0.043703 seconds
+  Import took 0.047481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Test/Warehouse_lights.obj
+  artifactKey: Guid(58ff1bb19ca0523428b8079a5942060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_lights.obj using Guid(58ff1bb19ca0523428b8079a5942060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b041d39be4036f39938a541eeb53a4') in 0.069409 seconds
+  Import took 0.071906 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000567 seconds.
+Registered in 0.001361 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -221,15 +181,198 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
+- Completed reload, in  0.897 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1545 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.9 MB.
+System memory in use after: 78.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2078.
-Total: 1.735700 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.503800 ms  DeleteObjects: 0.011700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 2.323100 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.967700 ms  DeleteObjects: 0.128900 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.9 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 5.160900 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.097400 ms MarkObjects: 4.478400 ms  DeleteObjects: 0.277100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.555944 seconds.
+  path: Assets/Prefabs/Test/Warehouse_door_large 1.obj
+  artifactKey: Guid(c958833b655a21243b3f9aa422851cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_door_large 1.obj using Guid(c958833b655a21243b3f9aa422851cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b91de3f27674fa090e1242e715dea95') in 0.137462 seconds
+  Import took 0.141109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/Test/Warehouse_roof 1.obj
+  artifactKey: Guid(60b27cafdf7976344bd2cd8776dfe9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_roof 1.obj using Guid(60b27cafdf7976344bd2cd8776dfe9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e67ac83505644c06d505b78d5bf2c0') in 0.040164 seconds
+  Import took 0.042550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/Test/Warehouse_floor_grate 1.obj
+  artifactKey: Guid(14323d5c871b03140beef7bc18741092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_floor_grate 1.obj using Guid(14323d5c871b03140beef7bc18741092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da899ca9663671ec22061c2b685e0f2') in 0.041465 seconds
+  Import took 0.043868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Test/Warehouse_wall 1.obj
+  artifactKey: Guid(3169cbc05cf320743a6412c00e2d4a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_wall 1.obj using Guid(3169cbc05cf320743a6412c00e2d4a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a36aad6ff3148fbd30ffca328b78aef') in 0.036594 seconds
+  Import took 0.038987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Prefabs/Test/Warehouse_wall_lower 1.obj
+  artifactKey: Guid(c93dae24134619145aaaea6c3fa8c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_wall_lower 1.obj using Guid(c93dae24134619145aaaea6c3fa8c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de952337ce1dc4b399ad8dbf6ac4bf1c') in 0.038450 seconds
+  Import took 0.040938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Prefabs/Test/Warehouse_door_small 1.obj
+  artifactKey: Guid(31af19ce92b5de34c872e60ab79a3a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_door_small 1.obj using Guid(31af19ce92b5de34c872e60ab79a3a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ce7953d046388895bd4fcd49ff559e') in 0.076664 seconds
+  Import took 0.079139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Test/Warehouse_stairs 1.obj
+  artifactKey: Guid(80c936abeae30734398ea292d453e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_stairs 1.obj using Guid(80c936abeae30734398ea292d453e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd7523b1f8547bd17fee16154cba558') in 0.042085 seconds
+  Import took 0.044541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Prefabs/Test/Warehouse_floor 1.obj
+  artifactKey: Guid(4b05539ba3566f1479890466da3630d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_floor 1.obj using Guid(4b05539ba3566f1479890466da3630d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f443c442f188b1a6500b7725ee629261') in 0.039046 seconds
+  Import took 0.041435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/Test/Warehouse_wall_half 1.obj
+  artifactKey: Guid(55e5282ebaf047d42a5f9563d1003ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Warehouse_wall_half 1.obj using Guid(55e5282ebaf047d42a5f9563d1003ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8978b4c3713d3e8d158e980c27552162') in 0.038092 seconds
+  Import took 0.040514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.570891 seconds.
+  path: Assets/Prefabs/Test/Corridor_wall_half.obj
+  artifactKey: Guid(e6f1ac938d2c88545bab3e0ba1b5eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Corridor_wall_half.obj using Guid(e6f1ac938d2c88545bab3e0ba1b5eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a1cd49666b94478c2f30b1206ad5e') in 0.041512 seconds
+  Import took 0.044309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Prefabs/Test/Corridor_roof.obj
+  artifactKey: Guid(1fd7e68a6a4b2e440adf3690024df460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Corridor_roof.obj using Guid(1fd7e68a6a4b2e440adf3690024df460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714eda9358c9138142df033bdaff21ba') in 0.037836 seconds
+  Import took 0.040393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Test/Corridor_wall.obj
+  artifactKey: Guid(1d0ab711648d9f546859f73549c70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Corridor_wall.obj using Guid(1d0ab711648d9f546859f73549c70ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a204da157bb427a29f53ba2db9943b') in 0.056848 seconds
+  Import took 0.059276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Prefabs/Test/Corridor_roof_half.obj
+  artifactKey: Guid(fa10f9c179f57334fb8b29780b1f3936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Corridor_roof_half.obj using Guid(fa10f9c179f57334fb8b29780b1f3936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90dcaf583e729e8797b1e38a49ae921') in 0.037749 seconds
+  Import took 0.040167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Test/Corridor_floor_half.obj
+  artifactKey: Guid(d258b35236dc94746b41b736148bda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Corridor_floor_half.obj using Guid(d258b35236dc94746b41b736148bda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6aa625a57590a47d76cdfce899503') in 0.035078 seconds
+  Import took 0.037491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/Test/Corridor_floor.obj
+  artifactKey: Guid(089ea2e4b9d441d44a4e173a4f141e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Corridor_floor.obj using Guid(089ea2e4b9d441d44a4e173a4f141e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9931c9f9fdd67d4a4dac9d4c727d8c12') in 0.037751 seconds
+  Import took 0.040156 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.0 MB.
+System memory in use after: 78.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.162100 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.050500 ms MarkObjects: 1.790600 ms  DeleteObjects: 0.117100 ms)
+
