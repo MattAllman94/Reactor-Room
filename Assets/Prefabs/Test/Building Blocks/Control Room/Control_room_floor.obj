@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib Control_room_floor.mtl
+g default
+v 0.000000 0.000000 -7.000000
+v 0.000000 0.000000 0.000000
+v -7.999996 0.000000 0.000000
+v -7.999996 0.000000 -7.000000
+vt 1.000000 1.000000
+vt 0.250000 1.000000
+vt 0.250000 0.750000
+vt 1.000000 0.750000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+s off
+g Control_room_floor1
+usemtl Server_room_wall_door_large:initialShadingGroup20
+f 1/1/1 4/2/2 3/3/3 2/4/4
