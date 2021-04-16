@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16333 MB
+OS: 'Windows 10 Pro; OS build 18362.1082; Version 1903; 64bit' Language: 'en' Physical Memory: 32705 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,769 +11,289 @@ C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/TechFast Australia/Documents/GitHub/Reactor Room
+C:/Users/mallman/Documents/GitHub/Reactor-Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61591
-Successfully changed project path to: C:/Users/TechFast Australia/Documents/GitHub/Reactor Room
-C:/Users/TechFast Australia/Documents/GitHub/Reactor Room
+50153
+Successfully changed project path to: C:/Users/mallman/Documents/GitHub/Reactor-Room
+C:/Users/mallman/Documents/GitHub/Reactor-Room
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/TechFast Australia/Documents/GitHub/Reactor Room/Assets
+[Subsystems] Discovering subsystems at path C:/Users/mallman/Documents/GitHub/Reactor-Room/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.5671
+    VRAM:     5980 MB
+    Driver:   26.21.14.4128
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002751 seconds.
+Registered in 0.001169 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
+- Completed reload, in  0.744 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001170 seconds.
+Registered in 0.000781 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  0.720 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.7 MB.
-System memory in use after: 77.8 MB.
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
 
-Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2030.
-Total: 2.482700 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.999300 ms  DeleteObjects: 0.242900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/FPSController.prefab
-  artifactKey: Guid(036a17920fe663e439b243530b133ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FPSController.prefab using Guid(036a17920fe663e439b243530b133ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46574156606fb09a66877cc08c12ec6') in 0.110020 seconds
-  Import took 0.113339 seconds .
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2031.
+Total: 1.723000 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.427700 ms  DeleteObjects: 0.114700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.445532 seconds.
-  path: Assets/Scenes/White-box.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/White-box.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b220624029b89590e5aa57cb0dc6eee4') in 0.007504 seconds
-  Import took 0.010411 seconds .
+  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj
+  artifactKey: Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj using Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055beb52a4ca4ee510250f1820e91437') in 0.123458 seconds
+  Import took 0.125495 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.077064 seconds.
-  path: Assets/Scenes/Asset Test.unity
-  artifactKey: Guid(55c17ac7f7cedd04d87267e1ad186eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Asset Test.unity using Guid(55c17ac7f7cedd04d87267e1ad186eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8db1522bca1546187f0b092d15e8a5') in 0.007986 seconds
-  Import took 0.010903 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj
+  artifactKey: Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj using Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8aea770eb2424f0ea2294a1518995e') in 0.013174 seconds
+  Import took 0.015203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.715409 seconds.
-  path: Assets/Prefabs/Test/Building Blocks
-  artifactKey: Guid(70473c17ae42ac5498196ecd5f1df569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks using Guid(70473c17ae42ac5498196ecd5f1df569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6662994fcb2d34575fe9a562f269669b') in 0.008146 seconds
-  Import took 0.010907 seconds .
+  Time since last request: 0.000944 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj
+  artifactKey: Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj using Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8aea770eb2424f0ea2294a1518995e') in 0.013246 seconds
+  Import took 0.015648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.378990 seconds.
-  path: Assets/Prefabs/Test/Focal Point
-  artifactKey: Guid(abfd4aba6b4945f49a81bfaf0e0ac634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Focal Point using Guid(abfd4aba6b4945f49a81bfaf0e0ac634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b339d1097d5d4da9633db66b46e5fa') in 0.007990 seconds
-  Import took 0.010954 seconds .
+  Time since last request: 308.558861 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj
+  artifactKey: Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj using Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f27823faaee5b4026445cbe77a664e') in 0.485021 seconds
+  Import took 0.488637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.317468 seconds.
-  path: Assets/Prefabs/Test/Doodads
-  artifactKey: Guid(a543e7d127bcc964dba73cf5f8ca7572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads using Guid(a543e7d127bcc964dba73cf5f8ca7572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2638a75e1142a87e536457f88987a9f8') in 0.008247 seconds
-  Import took 0.011269 seconds .
+  Time since last request: 27.166057 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj
+  artifactKey: Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj using Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc845776103a4d6b8f198ca1f5d0a0f') in 0.026620 seconds
+  Import took 0.029112 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.619287 seconds.
-  path: Assets/Prefabs/Test/Focal Point/Reactor_top.obj
-  artifactKey: Guid(33096553d10dc1f45bf8969e52e00b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Focal Point/Reactor_top.obj using Guid(33096553d10dc1f45bf8969e52e00b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18c405c8eff08f364d9d0d8f449d4ae') in 0.099435 seconds
-  Import took 0.102201 seconds .
+  Time since last request: 387.827197 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj
+  artifactKey: Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj using Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6953ea8e36eb8345822c781d8a6e1e93') in 0.019756 seconds
+  Import took 0.022364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Prefabs/Test/Focal Point/Reactor_base.obj
-  artifactKey: Guid(245368bac2a8ebb4291727d1a50aa617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Focal Point/Reactor_base.obj using Guid(245368bac2a8ebb4291727d1a50aa617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dd9008d8293b71fe974c2c903f8983') in 0.029780 seconds
-  Import took 0.032448 seconds .
+  Time since last request: 31.368595 seconds.
+  path: Assets/Prefabs/Test/Doodads/Canister.obj
+  artifactKey: Guid(df26b1962a413924c80f4180548c549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Doodads/Canister.obj using Guid(df26b1962a413924c80f4180548c549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f453457ed80af7660cdeb132f8702c6') in 0.015876 seconds
+  Import took 0.018635 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Prefabs/Test/Focal Point/Reactor_core.obj
-  artifactKey: Guid(a889c4071c75ce54b98d310454857090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Focal Point/Reactor_core.obj using Guid(a889c4071c75ce54b98d310454857090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5667e69a4a07c0fba6c249861f905fc2') in 0.027868 seconds
-  Import took 0.030316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.781053 seconds.
-  path: Assets/Wall_lights.obj
-  artifactKey: Guid(55f29a9086b87c344986688a8ce40304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wall_lights.obj using Guid(55f29a9086b87c344986688a8ce40304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e59f88f9cc0c719524ca30bd26c6f6') in 0.041598 seconds
-  Import took 0.045174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Vent.obj
-  artifactKey: Guid(8362075652d0cd44e849d64e1685fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vent.obj using Guid(8362075652d0cd44e849d64e1685fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fc539f6f7d7d333b1c37506c4be350') in 0.027767 seconds
-  Import took 0.030441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.442304 seconds.
-  path: Assets/Prefabs/Test/Doodads/Wall_lights.obj
-  artifactKey: Guid(84ab060b6daebeb4691f925877122620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Wall_lights.obj using Guid(84ab060b6daebeb4691f925877122620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b335ce53ffcccb4458ea2dbb7128b97') in 0.028999 seconds
-  Import took 0.031763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Prefabs/Test/Doodads/Vent.obj
-  artifactKey: Guid(0fd50d54fe1fa9c408c451ea07f2cba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Vent.obj using Guid(0fd50d54fe1fa9c408c451ea07f2cba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03054edb77b9c05696222c0502cee0df') in 0.026824 seconds
-  Import took 0.029330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.033885 seconds.
+  Time since last request: 0.000239 seconds.
   path: Assets/Prefabs/Test/Doodads/Server.obj
   artifactKey: Guid(2ebd1482c1599d545bc37602f06b1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Server.obj using Guid(2ebd1482c1599d545bc37602f06b1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f114016cbc94e0ee11fd8a343f11490f') in 0.048253 seconds
-  Import took 0.051782 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Server.obj using Guid(2ebd1482c1599d545bc37602f06b1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775bd42364c1f751b86691506730491') in 0.028150 seconds
+  Import took 0.030178 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
+  Time since last request: 0.000217 seconds.
   path: Assets/Prefabs/Test/Doodads/Chair.obj
   artifactKey: Guid(8d42b8263cc28d444acd3b0f954416d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Chair.obj using Guid(8d42b8263cc28d444acd3b0f954416d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1048d9fa3af5f62500e0d216a60cb05b') in 0.040026 seconds
-  Import took 0.042480 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Chair.obj using Guid(8d42b8263cc28d444acd3b0f954416d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a287f1d08e158dce5a96590e0509eb') in 0.017397 seconds
+  Import took 0.019409 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Prefabs/Test/Doodads/Reactor_monitor.obj
-  artifactKey: Guid(2a837bf43ef45e4489cf32324b127cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Reactor_monitor.obj using Guid(2a837bf43ef45e4489cf32324b127cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d1d0d5fd991bbfbb2d5bbb322f6123') in 0.022920 seconds
-  Import took 0.025424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001754 seconds.
-  path: Assets/Prefabs/Test/Doodads/Reactor_monitor.obj
-  artifactKey: Guid(2a837bf43ef45e4489cf32324b127cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Reactor_monitor.obj using Guid(2a837bf43ef45e4489cf32324b127cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d1d0d5fd991bbfbb2d5bbb322f6123') in 0.020110 seconds
-  Import took 0.022867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.671509 seconds.
-  path: Assets/Prefabs/Test/Doodads/Warehouse_shelves.obj
-  artifactKey: Guid(6bc5cf54fc22a184c8d9d311cec3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Warehouse_shelves.obj using Guid(6bc5cf54fc22a184c8d9d311cec3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc81ca6c8727d195f5cc42c8a10be37') in 0.024137 seconds
-  Import took 0.026949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
+  Time since last request: 0.000223 seconds.
   path: Assets/Prefabs/Test/Doodads/Warehouse_rail_short.obj
   artifactKey: Guid(7c11e7867c9a1e34ba8bd5bca5bad0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Warehouse_rail_short.obj using Guid(7c11e7867c9a1e34ba8bd5bca5bad0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40d66aa66d4690499a397bcea223f50') in 0.023513 seconds
-  Import took 0.026604 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Warehouse_rail_short.obj using Guid(7c11e7867c9a1e34ba8bd5bca5bad0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0fbd7b9fab6b50ae5c65b5dc9167d0') in 0.015603 seconds
+  Import took 0.017734 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefabs/Test/Doodads/Canister.obj
-  artifactKey: Guid(df26b1962a413924c80f4180548c549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Canister.obj using Guid(df26b1962a413924c80f4180548c549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8d932397f5c5991e4c10fc9c530691') in 0.023437 seconds
-  Import took 0.026302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
+  Time since last request: 0.000217 seconds.
   path: Assets/Prefabs/Test/Doodads/Warehouse_rail_long.obj
   artifactKey: Guid(3bafda20ea1e6324c894a85578593e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Warehouse_rail_long.obj using Guid(3bafda20ea1e6324c894a85578593e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbc6017ff3ddf88f142a9fab56795c7') in 0.021157 seconds
-  Import took 0.023815 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Warehouse_rail_long.obj using Guid(3bafda20ea1e6324c894a85578593e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b720b39258054e22c17d34b89e25ae2') in 0.016843 seconds
+  Import took 0.019118 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Prefabs/Test/Doodads/Canister.obj
-  artifactKey: Guid(df26b1962a413924c80f4180548c549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Canister.obj using Guid(df26b1962a413924c80f4180548c549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8d932397f5c5991e4c10fc9c530691') in 0.024278 seconds
-  Import took 0.026956 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Test/Doodads/Reactor_monitor.obj
+  artifactKey: Guid(2a837bf43ef45e4489cf32324b127cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Doodads/Reactor_monitor.obj using Guid(2a837bf43ef45e4489cf32324b127cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fbd2f47a8c901da672921b6916d9d1') in 0.017011 seconds
+  Import took 0.019044 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
+  Time since last request: 0.000151 seconds.
   path: Assets/Prefabs/Test/Doodads/Crate.obj
   artifactKey: Guid(3e8ae2a6eef885247a856e8320548883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Crate.obj using Guid(3e8ae2a6eef885247a856e8320548883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f160974ad5c8455866e03cd21e07f5c1') in 0.024122 seconds
-  Import took 0.026517 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Crate.obj using Guid(3e8ae2a6eef885247a856e8320548883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5b10f83b6310aaa3691b52d92efba2') in 0.015827 seconds
+  Import took 0.017817 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Test/Doodads/Vent.obj
+  artifactKey: Guid(0fd50d54fe1fa9c408c451ea07f2cba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Doodads/Vent.obj using Guid(0fd50d54fe1fa9c408c451ea07f2cba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c407a50e76d10721f06786d2ecf88530') in 0.015623 seconds
+  Import took 0.017833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Test/Doodads/Wall_lights.obj
+  artifactKey: Guid(84ab060b6daebeb4691f925877122620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Doodads/Wall_lights.obj using Guid(84ab060b6daebeb4691f925877122620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab31c61cf07262a8a0737150cd89b93b') in 0.015697 seconds
+  Import took 0.018009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
   path: Assets/Prefabs/Test/Doodads/Warehouse_lights.obj
   artifactKey: Guid(7cdd05bad58a400449a498fff4e421a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Warehouse_lights.obj using Guid(7cdd05bad58a400449a498fff4e421a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46291aed3c829155b3e50835db770af2') in 0.039197 seconds
-  Import took 0.041693 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Warehouse_lights.obj using Guid(7cdd05bad58a400449a498fff4e421a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97177c9c733ed60e765b85afa163e57') in 0.029640 seconds
+  Import took 0.031810 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000195 seconds.
   path: Assets/Prefabs/Test/Doodads/Monitor.obj
   artifactKey: Guid(ec64495a6d60b7f43919da6e725d577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Monitor.obj using Guid(ec64495a6d60b7f43919da6e725d577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34ea04a67ff9eb04e03bcbcbe7424e2') in 0.021535 seconds
-  Import took 0.023967 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Monitor.obj using Guid(ec64495a6d60b7f43919da6e725d577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b5039bc3b6e38d2e0aa7fc760d114') in 0.017327 seconds
+  Import took 0.019373 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002671 seconds.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Test/Doodads/Warehouse_shelves.obj
+  artifactKey: Guid(6bc5cf54fc22a184c8d9d311cec3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Doodads/Warehouse_shelves.obj using Guid(6bc5cf54fc22a184c8d9d311cec3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eabffe4fb690dd8d143a9fc5ca5a544') in 0.016451 seconds
+  Import took 0.018587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
   path: Assets/Prefabs/Test/Doodads/Monitor.obj
   artifactKey: Guid(ec64495a6d60b7f43919da6e725d577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Doodads/Monitor.obj using Guid(ec64495a6d60b7f43919da6e725d577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34ea04a67ff9eb04e03bcbcbe7424e2') in 0.021463 seconds
-  Import took 0.024306 seconds .
+Start importing Assets/Prefabs/Test/Doodads/Monitor.obj using Guid(ec64495a6d60b7f43919da6e725d577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b5039bc3b6e38d2e0aa7fc760d114') in 0.015468 seconds
+  Import took 0.017535 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.588337 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room
-  artifactKey: Guid(9b2ed7adc8de76245834a15c3d0b6964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room using Guid(9b2ed7adc8de76245834a15c3d0b6964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1724bb2afd484f93af5ae9d419488c9') in 0.007044 seconds
-  Import took 0.010140 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Test/Doodads/Warehouse_shelves.obj
+  artifactKey: Guid(6bc5cf54fc22a184c8d9d311cec3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Doodads/Warehouse_shelves.obj using Guid(6bc5cf54fc22a184c8d9d311cec3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eabffe4fb690dd8d143a9fc5ca5a544') in 0.014618 seconds
+  Import took 0.016840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.250764 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse
-  artifactKey: Guid(e04380f5fb927a042b70793f38df7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse using Guid(e04380f5fb927a042b70793f38df7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888ff3bef92f9a5d99b1c0dfe6433fef') in 0.008315 seconds
-  Import took 0.011897 seconds .
+  Time since last request: 0.081935 seconds.
+  path: Assets/Prefabs/Test/Focal Point/Reactor_base.obj
+  artifactKey: Guid(245368bac2a8ebb4291727d1a50aa617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Focal Point/Reactor_base.obj using Guid(245368bac2a8ebb4291727d1a50aa617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b46399a22a71104d0a9a30d296d1a2') in 0.016104 seconds
+  Import took 0.018386 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.005381 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway
-  artifactKey: Guid(bc3310831ac855144b0d2fb8cadc0416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway using Guid(bc3310831ac855144b0d2fb8cadc0416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2df8091df216e6f963ae46aea4863f0') in 0.006925 seconds
-  Import took 0.009636 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Test/Focal Point/Reactor_core.obj
+  artifactKey: Guid(a889c4071c75ce54b98d310454857090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Focal Point/Reactor_core.obj using Guid(a889c4071c75ce54b98d310454857090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa62474b869e6b76f4cc15f4d6484768') in 0.016689 seconds
+  Import took 0.018850 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.895431 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room
-  artifactKey: Guid(5ee046557fd37aa45b21ee1dcf6ffc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room using Guid(5ee046557fd37aa45b21ee1dcf6ffc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a69fdfb4db2ace5b530cb4ec6bfb64') in 0.008733 seconds
-  Import took 0.011527 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Test/Focal Point/Reactor_top.obj
+  artifactKey: Guid(33096553d10dc1f45bf8969e52e00b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Focal Point/Reactor_top.obj using Guid(33096553d10dc1f45bf8969e52e00b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8076b66927c6fada7e837dfa14f907fb') in 0.018437 seconds
+  Import took 0.020503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.680534 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_wall_half.obj
-  artifactKey: Guid(720a59b9fb99ed745bf2264994b8f9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_wall_half.obj using Guid(720a59b9fb99ed745bf2264994b8f9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7e01086f2ba58331fd4b0ea48a5f3f') in 0.043371 seconds
-  Import took 0.046203 seconds .
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefabs/Test/Focal Point/Reactor_core.obj
+  artifactKey: Guid(a889c4071c75ce54b98d310454857090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Focal Point/Reactor_core.obj using Guid(a889c4071c75ce54b98d310454857090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa62474b869e6b76f4cc15f4d6484768') in 0.015467 seconds
+  Import took 0.017508 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_roof.obj
-  artifactKey: Guid(3fab7d5980c76a644a3ceb508f4d3cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_roof.obj using Guid(3fab7d5980c76a644a3ceb508f4d3cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df4d8570994a1646ee24569e9e9b85e') in 0.029162 seconds
-  Import took 0.031679 seconds .
+  Time since last request: 1275.306694 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/New Lighting Settings.lighting
+  artifactKey: Guid(d206a7e2c3c44034b8b620f493edb9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/New Lighting Settings.lighting using Guid(d206a7e2c3c44034b8b620f493edb9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85598cc8a5d2052a1887cb350cf3c3a') in 0.005460 seconds
+  Import took 0.008093 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_floor.obj
-  artifactKey: Guid(99738fdad6efaaa4faf6fa1bf0b5ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_floor.obj using Guid(99738fdad6efaaa4faf6fa1bf0b5ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918af63cdaeaedaeb6924a66f27a66c') in 0.031778 seconds
-  Import took 0.034330 seconds .
+  Time since last request: 0.000622 seconds.
+  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/New Lighting Settings.lighting
+  artifactKey: Guid(d206a7e2c3c44034b8b620f493edb9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/New Lighting Settings.lighting using Guid(d206a7e2c3c44034b8b620f493edb9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85598cc8a5d2052a1887cb350cf3c3a') in 0.001606 seconds
+  Import took 0.003560 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_wall_door.obj
-  artifactKey: Guid(bba9edd13d775534092985b24064b329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_wall_door.obj using Guid(bba9edd13d775534092985b24064b329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f36e68d3ab6a1bced88ba98f13f484') in 0.029736 seconds
-  Import took 0.032405 seconds .
+  Time since last request: 869.872159 seconds.
+  path: Assets/Materials/CMANTESTE.mat
+  artifactKey: Guid(ee6d5f50166cc684090e2b7114bd030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CMANTESTE.mat using Guid(ee6d5f50166cc684090e2b7114bd030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64800c664720d3a7945807d9afa35f0b') in 0.035697 seconds
+  Import took 0.039429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_door_large.obj
-  artifactKey: Guid(71908beebacb730479800542f52a3fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_door_large.obj using Guid(71908beebacb730479800542f52a3fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1411d69431425e31b74d54efa086d56') in 0.057149 seconds
-  Import took 0.059747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_door_small.obj
-  artifactKey: Guid(5ee7a379708b45f4292d600c75dc86f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_door_small.obj using Guid(5ee7a379708b45f4292d600c75dc86f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd9f7942f3c57b82c9f8690c7f86f86') in 0.051709 seconds
-  Import took 0.054279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_wall.obj
-  artifactKey: Guid(b79818fcc532c0a43a916cba4012a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_wall.obj using Guid(b79818fcc532c0a43a916cba4012a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9a842ea6a00b04ec1d28448ab35654') in 0.033503 seconds
-  Import took 0.036085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_stairs.obj
-  artifactKey: Guid(c1c74870a3ec9484aacf053e7803f64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Warehouse/Warehouse_stairs.obj using Guid(c1c74870a3ec9484aacf053e7803f64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a309d8d13f1eba3cac3eea8bcb772c23') in 0.032766 seconds
-  Import took 0.035258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.947364 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_small.obj
-  artifactKey: Guid(80dd4558d6c0b664090812493b408849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_small.obj using Guid(80dd4558d6c0b664090812493b408849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3075cfe231942d4bef50b05afe8e81a') in 0.034597 seconds
-  Import took 0.037596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_door_top.obj
-  artifactKey: Guid(a05c5095834383b43b2f95aa27c6ee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_door_top.obj using Guid(a05c5095834383b43b2f95aa27c6ee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c33e006dac533228e04f63d1e7518c') in 0.040374 seconds
-  Import took 0.042914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_floor.obj
-  artifactKey: Guid(14789cf74c17a6f449eeec5429a4b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_floor.obj using Guid(14789cf74c17a6f449eeec5429a4b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd6e690c65f0c3f88c9b78862cb4aa6') in 0.029342 seconds
-  Import took 0.031746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall.obj
-  artifactKey: Guid(994f3a2cb42f87c4dad4ee0c626b9eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall.obj using Guid(994f3a2cb42f87c4dad4ee0c626b9eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd12b1893dffbc480dfdb2672741e62a') in 0.031823 seconds
-  Import took 0.034223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_floor_small.obj
-  artifactKey: Guid(85f44483bf4bf7d43be497926acb32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_floor_small.obj using Guid(85f44483bf4bf7d43be497926acb32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4144f04ca87226ee9fe1a38fa6e167a8') in 0.027502 seconds
-  Import took 0.030316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_roof_short.obj
-  artifactKey: Guid(c827fa28c0b4d064faaebdda901854dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_roof_short.obj using Guid(c827fa28c0b4d064faaebdda901854dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eed9b1bb2d2b1c876e87ae3210ae57') in 0.025372 seconds
-  Import took 0.027860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_roof_tile.obj
-  artifactKey: Guid(04980ab344572894f82a15eece904195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_roof_tile.obj using Guid(04980ab344572894f82a15eece904195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccef20186a25f165bc6593b794b34166') in 0.027418 seconds
-  Import took 0.029820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_roof_stair.obj
-  artifactKey: Guid(0565cf7da7de18d459f4c0f5c86b95f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_roof_stair.obj using Guid(0565cf7da7de18d459f4c0f5c86b95f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd243895a3634c27e54324026a24e6a8b') in 0.028452 seconds
-  Import took 0.030951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall_stair.obj
-  artifactKey: Guid(ae4f3d1f0c17c3443a79bcb2e5b7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall_stair.obj using Guid(ae4f3d1f0c17c3443a79bcb2e5b7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2831d71ceb1f2cea18e60da0875ea248') in 0.026320 seconds
-  Import took 0.028747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_back.obj
-  artifactKey: Guid(c72177180e121dc45990acd2087a2d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_back.obj using Guid(c72177180e121dc45990acd2087a2d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3ef91a4097576c64c3a2c43549198a') in 0.023102 seconds
-  Import took 0.025504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall_short.obj
-  artifactKey: Guid(ed630b2fd2806084eac0737850a70135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall_short.obj using Guid(ed630b2fd2806084eac0737850a70135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333b1acf754d150b951fcc92316b649b') in 0.030183 seconds
-  Import took 0.032582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_door_small.obj
-  artifactKey: Guid(3fbf11f91cc93704c96977219efed1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_door_small.obj using Guid(3fbf11f91cc93704c96977219efed1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23ce9106bc62814e2659e06538c4744') in 0.028166 seconds
-  Import took 0.030636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_roof.obj
-  artifactKey: Guid(dd7e4ace5f727de41804822cd585d3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_roof.obj using Guid(dd7e4ace5f727de41804822cd585d3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac6201723bdd538930aedd527099ec4') in 0.026602 seconds
-  Import took 0.029236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_lower.obj
-  artifactKey: Guid(befecfaae9f4d3a42b70c786f401e6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_lower.obj using Guid(befecfaae9f4d3a42b70c786f401e6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2430c35bae00ccf61a4afa6bb7d129') in 0.026694 seconds
-  Import took 0.029337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_door_large.obj
-  artifactKey: Guid(47b2893a37ef86248a71d1a0d1222b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_door_large.obj using Guid(47b2893a37ef86248a71d1a0d1222b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934fe809964bbb5a8617c2eaa1269e44') in 0.024449 seconds
-  Import took 0.026943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_roof_lip_small.obj
-  artifactKey: Guid(b2431e4efe2dc6248b7d3f55799a4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_roof_lip_small.obj using Guid(b2431e4efe2dc6248b7d3f55799a4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc51cbac7b4c1476c9e38d7291245fea') in 0.028586 seconds
-  Import took 0.031040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_side.obj
-  artifactKey: Guid(3af5c29ee96b4c04792dc08a13df5d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_wall_side.obj using Guid(3af5c29ee96b4c04792dc08a13df5d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f0a3f9b0ae2ac78e0d38148878f28d') in 0.029294 seconds
-  Import took 0.031776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_stairs.obj
-  artifactKey: Guid(5a2ccc92afa1eba4e9216cb883820908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_stairs.obj using Guid(5a2ccc92afa1eba4e9216cb883820908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e4c11181f72d2c9a257e3bebd38f38') in 0.030681 seconds
-  Import took 0.033149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room__upper_floor_small.obj
-  artifactKey: Guid(2d837859cc0166247a6f6eb546ebe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room__upper_floor_small.obj using Guid(2d837859cc0166247a6f6eb546ebe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e3d575a9eef659bb6bfae7b290a3fc') in 0.029257 seconds
-  Import took 0.031802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_stairs.obj
-  artifactKey: Guid(49ef72148cafd704398eea54bf55057e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_stairs.obj using Guid(49ef72148cafd704398eea54bf55057e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd72977dff355b92674705eef71c555') in 0.023266 seconds
-  Import took 0.026061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall_door.obj
-  artifactKey: Guid(d5a95e84fc873884aa98c41978bf2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_wall_door.obj using Guid(d5a95e84fc873884aa98c41978bf2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81054e894006bf5e7d94a8f51551a43f') in 0.026690 seconds
-  Import took 0.029144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_roof_lip.obj
-  artifactKey: Guid(947f8402f64ede845a37f760ca3902f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Server_room_roof_lip.obj using Guid(947f8402f64ede845a37f760ca3902f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b451f50137c438b8ae592779e069f4') in 0.027027 seconds
-  Import took 0.029467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_floor.obj
-  artifactKey: Guid(1bc1851fd0d4dd2449eb010b132209e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_floor.obj using Guid(1bc1851fd0d4dd2449eb010b132209e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3777cf1e9eac3fc48514232388edc4f') in 0.026961 seconds
-  Import took 0.029535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004446 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_floor.obj
-  artifactKey: Guid(1bc1851fd0d4dd2449eb010b132209e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Server Room - Hallway/Hallway_floor.obj using Guid(1bc1851fd0d4dd2449eb010b132209e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3777cf1e9eac3fc48514232388edc4f') in 0.023382 seconds
-  Import took 0.026166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.439810 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway_support.obj
-  artifactKey: Guid(08ba07488c7fb1249aaae2830eb5d3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway_support.obj using Guid(08ba07488c7fb1249aaae2830eb5d3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8efeffc248ef4c98ea15e6b1e5654a') in 0.035882 seconds
-  Import took 0.038662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_roof_half.obj
-  artifactKey: Guid(ec5cb32a810644c4daf4794c332dfc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_roof_half.obj using Guid(ec5cb32a810644c4daf4794c332dfc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227c9cb33056fb05558b5df3944d23c3') in 0.038606 seconds
-  Import took 0.041080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_floor_half.obj
-  artifactKey: Guid(d9b1be63a6000f949872b9482b7e5466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_floor_half.obj using Guid(d9b1be63a6000f949872b9482b7e5466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff8ef235dc9ff049b7e0d16cd1aca2d') in 0.027271 seconds
-  Import took 0.029729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway_outer_rail.obj
-  artifactKey: Guid(e4e69498f8b7e7743b7d54cc55b70861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway_outer_rail.obj using Guid(e4e69498f8b7e7743b7d54cc55b70861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ec60a27019065b0712be4a7e0556b1') in 0.034075 seconds
-  Import took 0.036878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_floor.obj
-  artifactKey: Guid(2bae8042734feb043bd35a5967ebebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_floor.obj using Guid(2bae8042734feb043bd35a5967ebebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a50bf2bd29445f0904def4ef81bc1b') in 0.030202 seconds
-  Import took 0.032736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_upper_wall_control.obj
-  artifactKey: Guid(7c834c20eb377734dbe20aa06bd1cbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_upper_wall_control.obj using Guid(7c834c20eb377734dbe20aa06bd1cbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d84645acad8a9ee5ffe3ce1fa38168') in 0.031584 seconds
-  Import took 0.034085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_lower_wall.obj
-  artifactKey: Guid(664f19692bce6664c8fc50dd543af3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_lower_wall.obj using Guid(664f19692bce6664c8fc50dd543af3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f042f6c835020d061c0a717b125d77') in 0.028376 seconds
-  Import took 0.030861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_middle_wall_control.obj
-  artifactKey: Guid(fe547685d718bc34ba8047a4c8e3d4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_middle_wall_control.obj using Guid(fe547685d718bc34ba8047a4c8e3d4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794ea841fa1805f3e87e696622e0020b') in 0.024559 seconds
-  Import took 0.027051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_pipe.obj
-  artifactKey: Guid(6c157a34f6d216048ac69f1e9a42a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_pipe.obj using Guid(6c157a34f6d216048ac69f1e9a42a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c906e64c1a8f52bdf602b9523de0d2') in 0.032444 seconds
-  Import took 0.035352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_roof.obj
-  artifactKey: Guid(9931156e9f360cf4eb4db943dbe48574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_roof.obj using Guid(9931156e9f360cf4eb4db943dbe48574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a58900ffe1146e4607fd97a912e2268') in 0.031068 seconds
-  Import took 0.033570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_wall_half.obj
-  artifactKey: Guid(3914dd7817ddf6140adfaf6d5cb1f88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_wall_half.obj using Guid(3914dd7817ddf6140adfaf6d5cb1f88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998d7d0b63fa6639de245f8a49743799') in 0.028009 seconds
-  Import took 0.030664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_upper_wall.obj
-  artifactKey: Guid(e6c98a34d3dfc034ebd50ef1753e33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_upper_wall.obj using Guid(e6c98a34d3dfc034ebd50ef1753e33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cfa14ecdc18752947fc7c2b25f51e3') in 0.024893 seconds
-  Import took 0.027425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_middle_wall.obj
-  artifactKey: Guid(d7d262b3fe8911d4c90e3f01e222e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_middle_wall.obj using Guid(d7d262b3fe8911d4c90e3f01e222e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ae9414369e4c7fce2510f3f4c4d2e6') in 0.030924 seconds
-  Import took 0.033412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_pillar.obj
-  artifactKey: Guid(c604a4bc2cc784847b590777c4494b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_pillar.obj using Guid(c604a4bc2cc784847b590777c4494b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76177975bace5a9f893cb785db5d153f') in 0.025543 seconds
-  Import took 0.027971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_middle_wall_door.obj
-  artifactKey: Guid(2adc7ad168cdb754d8def5efc4ad1bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_middle_wall_door.obj using Guid(2adc7ad168cdb754d8def5efc4ad1bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc8ea297ee567611d1bb9216574c334') in 0.023537 seconds
-  Import took 0.026027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway.obj
-  artifactKey: Guid(1a864fd0fe6e87f44a33412195baf3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway.obj using Guid(1a864fd0fe6e87f44a33412195baf3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5529fdb7a7aa76cd8251eeac8f51285b') in 0.026320 seconds
-  Import took 0.028827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_floor.obj
-  artifactKey: Guid(765d392a60885514f8a7c0cf7e2f10f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_floor.obj using Guid(765d392a60885514f8a7c0cf7e2f10f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464bd14ab6a992716cc9152f9f6e6e06') in 0.028947 seconds
-  Import took 0.031358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_wall.obj
-  artifactKey: Guid(01fb0d2a2c2b660449a637c90ab8fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Corridor_wall.obj using Guid(01fb0d2a2c2b660449a637c90ab8fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6540221cf7a65ffe34b8a810b0d784') in 0.038467 seconds
-  Import took 0.040938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_roof.obj
-  artifactKey: Guid(22cc0a8d29513d849b5f01597f238289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_roof.obj using Guid(22cc0a8d29513d849b5f01597f238289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c1b4937c00f5adf73b945f82054f6b') in 0.024940 seconds
-  Import took 0.027451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway_pole.obj
-  artifactKey: Guid(376f171eda53604499190293fee97745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Reactor Room/Reactor_walkway_pole.obj using Guid(376f171eda53604499190293fee97745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad52dd7d7f6900908f50e1ba69968e1') in 0.030430 seconds
-  Import took 0.032872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.329270 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_window.obj
-  artifactKey: Guid(41f8c11d1b21a5c489334a39e547c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_window.obj using Guid(41f8c11d1b21a5c489334a39e547c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc63580a186712028969af6ad09004b8') in 0.041920 seconds
-  Import took 0.044675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj
-  artifactKey: Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_door.obj using Guid(a00b3748b6d703d48983d253cdb55831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f4ae529bf3e53a692b33cd1bc611c4') in 0.034309 seconds
-  Import took 0.037138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj
-  artifactKey: Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_small.obj using Guid(0f230873a4f31da419bd1881065c7923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2978f81618a9c41ee7f861564eed2163') in 0.039585 seconds
-  Import took 0.042024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_floor.obj
-  artifactKey: Guid(06e6d8b87676c0f45bd2177e1891fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_floor.obj using Guid(06e6d8b87676c0f45bd2177e1891fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e128b4d8730a63226628aa765b9a9a21') in 0.033247 seconds
-  Import took 0.036054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_large.obj
-  artifactKey: Guid(504f6096fa09654469b7cbdecf5379d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_wall_large.obj using Guid(504f6096fa09654469b7cbdecf5379d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cf5c48202fcfd7ac36cd53d0330bd1') in 0.033240 seconds
-  Import took 0.035823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_roof.obj
-  artifactKey: Guid(c4d203035e29bb041a979d77142e22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Test/Building Blocks/Control Room/Control_room_roof.obj using Guid(c4d203035e29bb041a979d77142e22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314475108560c356ce05eb44cb33eb8f') in 0.031761 seconds
-  Import took 0.034580 seconds .
+  Time since last request: 41.443374 seconds.
+  path: Assets/Materials/CMANTESTE.mat
+  artifactKey: Guid(ee6d5f50166cc684090e2b7114bd030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CMANTESTE.mat using Guid(ee6d5f50166cc684090e2b7114bd030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b9dff3f48d0dc96f80cf18b0de8ce9') in 0.014992 seconds
+  Import took 0.017612 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
