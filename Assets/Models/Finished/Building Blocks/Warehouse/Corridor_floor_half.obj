@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib Corridor_floor_half.mtl
+g default
+v 0.000000 0.000000 -1.000000
+v -8.000000 0.000000 -1.000000
+v 0.000000 0.000000 0.000000
+v -8.000000 0.000000 0.000000
+vt 0.046179 0.442647
+vt 0.963820 0.442648
+vt 0.963820 0.557353
+vt 0.046179 0.557353
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+s off
+g Corridor_floor_half1
+usemtl lambert2SG
+f 1/1/1 2/2/2 4/3/3 3/4/4

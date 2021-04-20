@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib Control_room_floor.mtl
+g default
+v 0.000000 0.000000 -7.000000
+v 0.000000 0.000000 0.000000
+v -7.999996 0.000000 0.000000
+v -7.999996 0.000000 -7.000000
+vt 0.855598 0.022175
+vt 0.855598 0.977825
+vt 0.019403 0.977825
+vt 0.019403 0.022175
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+vn 0.000000 1.000000 0.000000
+s off
+g Control_room_floor1
+usemtl lambert2SG
+f 1/1/1 4/2/2 3/3/3 2/4/4
