@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5660087859741590796}
   - component: {fileID: 4146483983714233211}
   - component: {fileID: 8041594614854308577}
+  - component: {fileID: 5362905664593904111}
   m_Layer: 0
   m_Name: Reactor_middle_wall_control1
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5362905664593904111
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243282351242253365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7362846565915132094, guid: ceabc7bb87dd20f4bacec2aa1cd2d5d3, type: 3}
 --- !u!1 &6215790848918233873
 GameObject:
   m_ObjectHideFlags: 0

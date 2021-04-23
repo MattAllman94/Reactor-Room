@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5274488028871716281}
   - component: {fileID: 8857044494776274635}
   - component: {fileID: 4216497924259972630}
+  - component: {fileID: 4445190739259503470}
   m_Layer: 0
   m_Name: Reactor_walkway_support1
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &4445190739259503470
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172274055442769518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.321321
+  m_Height: 9.000044
+  m_Direction: 1
+  m_Center: {x: 0, y: 4.383066, z: 0}
 --- !u!1 &7414737565133966930
 GameObject:
   m_ObjectHideFlags: 0

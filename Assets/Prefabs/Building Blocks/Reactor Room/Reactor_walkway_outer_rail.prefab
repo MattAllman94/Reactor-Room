@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6448072510609683445}
   - component: {fileID: 2489894203313021759}
   - component: {fileID: 7910328214642032718}
+  - component: {fileID: 8027562495023871341}
   m_Layer: 0
   m_Name: Reactor_walkway_outer_rail1
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8027562495023871341
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121576357450419503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1325755557298243049, guid: c9ad16ab36ce40542b3d4a441c6d9812, type: 3}
 --- !u!1 &2550206236353542577
 GameObject:
   m_ObjectHideFlags: 0

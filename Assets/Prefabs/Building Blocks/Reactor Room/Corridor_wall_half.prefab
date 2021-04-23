@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4592940475388267617}
   - component: {fileID: 4549811077768433716}
   - component: {fileID: 1959889338156239386}
+  - component: {fileID: 3286705586926924837}
   m_Layer: 0
   m_Name: Corridor_wall_half1
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3286705586926924837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376352963270016349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5430380483020507134, guid: 2fd5c1c7a46015d448f4c2d0de618164, type: 3}
 --- !u!1 &2522331994470056222
 GameObject:
   m_ObjectHideFlags: 0

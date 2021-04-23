@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 3040373133368586254}
   - component: {fileID: 7344742851718195955}
   - component: {fileID: 2363778171914387222}
+  - component: {fileID: 5277390932348521874}
   m_Layer: 0
   m_Name: Server_room_wall_back1
   m_TagString: Untagged
@@ -112,3 +113,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5277390932348521874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740643817782561125}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8, y: 6, z: 0}
+  m_Center: {x: 4, y: 3, z: 0}

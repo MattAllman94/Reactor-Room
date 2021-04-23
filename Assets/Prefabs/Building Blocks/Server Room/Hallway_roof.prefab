@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5053892618823786240}
   - component: {fileID: 5290633881819764642}
   - component: {fileID: 7910475812699898609}
+  - component: {fileID: 3463860200899527012}
   m_Layer: 0
   m_Name: Hallway_roof1
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3463860200899527012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7424390041404043905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 0.200001, z: 6}
+  m_Center: {x: 3, y: 0.1000005, z: -3}
 --- !u!1 &9169738921695020211
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4777358368248052467}
   - component: {fileID: 6153861716054025867}
   - component: {fileID: 2863300001739881047}
+  - component: {fileID: 6243192221900026603}
   m_Layer: 0
   m_Name: Reactor_base1_Focal_point
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6243192221900026603
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326697135366084716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8555673251023860141, guid: 98d699d92b28cc342937ee34e03ae52a, type: 3}
 --- !u!1 &6896205640555206000
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4663117830117560774}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 5333803394207903102}
   - component: {fileID: 8912488501223859725}
   - component: {fileID: 3513160707174243676}
+  - component: {fileID: 848796189513557333}
   m_Layer: 0
   m_Name: Warehouse_wall1
   m_TagString: Untagged
@@ -90,7 +91,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6688079366334512470, guid: 3be86aa87ed124f4f8d0d123367b2d00, type: 3}
+  - {fileID: 2100000, guid: b9807eb522cf2de48bd968341eef0b9b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,3 +113,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &848796189513557333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321446299980458986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 5, z: 0.124582}
+  m_Center: {x: -3, y: 2.5, z: -0.062291}

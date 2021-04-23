@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6577094772660421020}
   - component: {fileID: 8826010557141409671}
   - component: {fileID: 7851064180877774140}
+  - component: {fileID: 2841477907194643275}
   m_Layer: 0
   m_Name: Warehouse_door_small_right1
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2841477907194643275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5158779430438572294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9000003, y: 3.737687, z: 0.25000006}
+  m_Center: {x: 1.1500002, y: 1.8688436, z: 0}
 --- !u!1 &6433909055472909226
 GameObject:
   m_ObjectHideFlags: 0

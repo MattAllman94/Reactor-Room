@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1651011096627899067}
   - component: {fileID: 5591509264955206355}
   - component: {fileID: 8493371793711315217}
+  - component: {fileID: 3327217354014620651}
   m_Layer: 0
   m_Name: Canister1
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &3327217354014620651
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949675010970912178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.230654
+  m_Height: 7.187706
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.6412678, z: 0}
 --- !u!1 &1702029101989831347
 GameObject:
   m_ObjectHideFlags: 0

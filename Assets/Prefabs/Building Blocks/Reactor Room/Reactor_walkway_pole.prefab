@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 8980255231389948909}
   - component: {fileID: 3093741136921020741}
   - component: {fileID: 449919576679563792}
+  - component: {fileID: 7096659196049889993}
   m_Layer: 0
   m_Name: Reactor_walkway_pole1
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &7096659196049889993
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601147950062853386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.061699
+  m_Height: 1.183342
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.591671, z: 0}

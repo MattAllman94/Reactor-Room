@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 3523997979225283322}
   - component: {fileID: 3342581686795056057}
   - component: {fileID: 5112536943623211329}
+  - component: {fileID: 8259647302980387860}
   m_Layer: 0
   m_Name: Reactor_pipe_vertical1
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8259647302980387860
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438979085949381065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6359523493181790436, guid: 62f0a3a610241af4d84eefda6c3012bf, type: 3}

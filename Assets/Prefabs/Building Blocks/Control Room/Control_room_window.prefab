@@ -11,6 +11,11 @@ GameObject:
   - component: {fileID: 7710536304692135590}
   - component: {fileID: 7397528260571145489}
   - component: {fileID: 7036288752489476614}
+  - component: {fileID: 7971987990332307198}
+  - component: {fileID: 5944153522897913648}
+  - component: {fileID: 5216048191985813389}
+  - component: {fileID: 7000823687604397950}
+  - component: {fileID: 6965483217786049077}
   m_Layer: 0
   m_Name: Control_room_window:Control_room_window1
   m_TagString: Untagged
@@ -81,6 +86,71 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7971987990332307198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108432196152498292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4295483, y: 1.1668162, z: 14.75396}
+  m_Center: {x: -2, y: -4.0196877, z: 0}
+--- !u!65 &5944153522897913648
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108432196152498292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4295483, y: 1.1292591, z: 14.75396}
+  m_Center: {x: -2, y: 4.0384665, z: 0}
+--- !u!65 &5216048191985813389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108432196152498292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4028387, y: 9.206192, z: 0.5452118}
+  m_Center: {x: -2.0133548, y: 0, z: 7.175438}
+--- !u!65 &7000823687604397950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108432196152498292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4295483, y: 9.206192, z: 0.5171509}
+  m_Center: {x: -2, y: 0, z: -7.1184044}
+--- !u!65 &6965483217786049077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108432196152498292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6080408, y: 9.206192, z: 14.75396}
+  m_Center: {x: -3.9107537, y: 0, z: 0}
 --- !u!1 &573179511724756239
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +194,7 @@ GameObject:
   - component: {fileID: 268986135795444060}
   - component: {fileID: 6338403660391886169}
   - component: {fileID: 8955264620188820027}
+  - component: {fileID: 914612221666953306}
   m_Layer: 0
   m_Name: Control_room_window:Control_room_window1_Control_room_window:Control_room_window1Control_room_window_glass
   m_TagString: Untagged
@@ -194,3 +265,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &914612221666953306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938451471493456138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.053465843, y: 5.515016, z: 12.085133}
+  m_Center: {x: -3.785224, y: 0.18335605, z: -0.0000021457672}

@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 4379700572884555756}
   - component: {fileID: 8069388098996769591}
   - component: {fileID: 3791944788877151602}
+  - component: {fileID: 7486913354549919247}
   m_Layer: 0
   m_Name: Control_room_wall_large1
   m_TagString: Untagged
@@ -112,3 +113,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7486913354549919247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3175043082332235157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.999996, y: 7, z: 0.399994}
+  m_Center: {x: 3.999998, y: 3.5, z: 0}

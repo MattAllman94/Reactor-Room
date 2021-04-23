@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9153577315723318106}
   - component: {fileID: 6704086006381567308}
   - component: {fileID: 3086528344963913891}
+  - component: {fileID: 7197781265068704127}
   m_Layer: 0
   m_Name: Warehouse_shelf_Doodads
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7197781265068704127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550925318008642173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.038229, y: 1.998398, z: 1}
+  m_Center: {x: -1.5191145, y: 0.999199, z: 0.47635102}
 --- !u!1 &2431651419199258278
 GameObject:
   m_ObjectHideFlags: 0

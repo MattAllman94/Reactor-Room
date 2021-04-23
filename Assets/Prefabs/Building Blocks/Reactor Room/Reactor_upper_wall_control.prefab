@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2186677102171693478}
   - component: {fileID: 389894162345772051}
   - component: {fileID: 5897641095437983802}
+  - component: {fileID: 7519307825085475744}
   m_Layer: 0
   m_Name: Reactor_upper_wall_control1
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7519307825085475744
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178528673876786139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8372738438433743814, guid: 607dac67bc61f824e890ce8b609b4a3a, type: 3}
 --- !u!1 &7867835196996157058
 GameObject:
   m_ObjectHideFlags: 0

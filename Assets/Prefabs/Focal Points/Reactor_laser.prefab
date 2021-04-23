@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8444194310145846969}
   - component: {fileID: 2865400700958828633}
   - component: {fileID: 5834915537254686254}
+  - component: {fileID: 4375311038449216296}
   m_Layer: 0
   m_Name: Reactor_laser:pCylinder1Focal_point
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4375311038449216296
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589534780181615657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4110722816939059929, guid: d0e877177eac8804eb9ff3f940d72b37, type: 3}
 --- !u!1 &6046356747073344965
 GameObject:
   m_ObjectHideFlags: 0

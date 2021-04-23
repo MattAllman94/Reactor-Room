@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 159532250163818477}
   - component: {fileID: 5796885360962365765}
   - component: {fileID: 672579454414251116}
+  - component: {fileID: 8562229158054143767}
   m_Layer: 0
   m_Name: Server_room_roof_lip1
   m_TagString: Untagged
@@ -162,6 +163,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8562229158054143767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4682263913782761395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.000002, y: 1, z: 8.000002}
+  m_Center: {x: -4.000001, y: 0.5, z: 4.000001}
 --- !u!1 &8821935036636326481
 GameObject:
   m_ObjectHideFlags: 0

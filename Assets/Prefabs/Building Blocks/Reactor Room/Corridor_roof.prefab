@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 723323235839573834}
   - component: {fileID: 12208515194286608}
   - component: {fileID: 6090446180811843985}
+  - component: {fileID: 4366479603864986667}
   m_Layer: 0
   m_Name: Corridor_roof1
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4366479603864986667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774800894939516357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 0.664485, z: 3}
+  m_Center: {x: 3, y: -0.1369755, z: 1.5}
 --- !u!1 &7184005637387493844
 GameObject:
   m_ObjectHideFlags: 0

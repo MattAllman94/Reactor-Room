@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 1195439655713961832}
   - component: {fileID: 8180672518603722225}
   - component: {fileID: 4043453449056984527}
+  - component: {fileID: 7478598505368610274}
   m_Layer: 0
   m_Name: Reactor_lower_wall7
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7478598505368610274
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850808448880968989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3149981453832459815, guid: 664f19692bce6664c8fc50dd543af3ef, type: 3}

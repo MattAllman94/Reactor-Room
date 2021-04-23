@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4634795934072563641}
   - component: {fileID: 4843781901753170346}
   - component: {fileID: 8578664250638861792}
+  - component: {fileID: 781688215203914168}
   m_Layer: 0
   m_Name: Warehouse_roof1
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &781688215203914168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245595065007563687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.0000014, y: 0.25, z: 6.0000014}
+  m_Center: {x: -3.0000007, y: 0.025000002, z: 3.0000007}
 --- !u!1 &5957942545953739493
 GameObject:
   m_ObjectHideFlags: 0
