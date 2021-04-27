@@ -13,7 +13,7 @@ public class SlidingDoor : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        audio = GetComponent<AudioSource>();
+
     }
 
     void Update()
