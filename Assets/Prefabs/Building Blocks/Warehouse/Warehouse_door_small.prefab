@@ -81,6 +81,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPresent: 0
+  interactText: {fileID: 0}
 --- !u!1 &6340730672008636757
 GameObject:
   m_ObjectHideFlags: 0

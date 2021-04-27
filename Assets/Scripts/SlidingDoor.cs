@@ -9,9 +9,11 @@ public class SlidingDoor : MonoBehaviour
     public bool playerPresent = false;
 
 
+
     void Start()
     {
         anim = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
     }
 
     void Update()
