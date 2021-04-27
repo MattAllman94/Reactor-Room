@@ -1,22 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
 using TMPro;
 
 public class DoorController : MonoBehaviour
 {
     public TextMeshProUGUI openText;
+    public bool atDoor;
 
-    public GameObject doorLeft;
-    public GameObject doorRight;
-    public Ease ease;
-
-    public Vector3 doorLeftOpenPOS = new Vector3(2f, 0, 0);
-    public Vector3 doorRightOpenPOS = new Vector3(-2f, 0, 0);
-
-    public Vector3 doorLeftClosePOS = new Vector3(0, 0, 0);
-    public Vector3 doorRightClosePOS = new Vector3(0, 0, 0);
+    public Animator anim;
 
     private void Start()
     {
@@ -24,21 +16,27 @@ public class DoorController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-
+        //Debug.Log(other.name);
+        anim.SetBool("Close", false);
+        if (other.gameObject.CompareTag("Player"))
+        {
             openText.text = "Press 'E' to open door";
-            if(Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
+                Debug.Log("Pressed E");
                 openText.text = "";
-                doorLeft.transform.DOMove(doorLeftOpenPOS, 1).SetEase(ease);
-                doorRight.transform.DOMove(doorRightOpenPOS, 1).SetEase(ease);
+                anim.SetBool("Open", true);
             }
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-          openText.text = "";
-          doorLeft.transform.DOMove(doorLeftClosePOS, 3).SetEase(ease);
-          doorRight.transform.DOMove(doorRightClosePOS, 3).SetEase(ease);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            openText.text = "";
+            anim.SetBool("Close", true);
+            anim.SetBool("Open", false);
+        }
     }
 }
