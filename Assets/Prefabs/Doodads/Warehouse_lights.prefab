@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 1324741788841827766}
   - component: {fileID: 3469707763256353882}
   - component: {fileID: 822300140439644841}
+  - component: {fileID: 938631576574013878}
   m_Layer: 0
   m_Name: Warehouse_light_Warehouse_light_light
   m_TagString: Untagged
@@ -176,6 +177,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &938631576574013878
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3277633987994751856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3726374580684134221, guid: 075bcdae2067fbd4db1586789fd8e689, type: 3}
 --- !u!1 &4617027423121827387
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +309,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5999959277392275756}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
